@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 7.0.1 (Python 3.11.5 on win32)" generated="2024-07-20T16:15:22.034947" rpa="false" schemaversion="5">
+<suite id="s1" name="PageObject" source="C:\Users\motal\OneDrive\Desktop\automatisation\Robot_F\Robotframework_formation\test\PageObject.robot">
+<test id="s1-t1" name="ESSAI" line="7">
+<kw name="openpage" owner="commun">
+<kw name="Open Browser" owner="SeleniumLibrary">
+<msg time="2024-07-20T16:15:23.293446" level="INFO">Opening browser 'chrome' to base url 'https://opensource-demo.orangehrmlive.com/web/index.php/auth/login'.</msg>
+<arg>${url}</arg>
+<arg>${browser}</arg>
+<doc>Opens a new browser instance to the optional ``url``.</doc>
+<status status="PASS" start="2024-07-20T16:15:23.293446" elapsed="8.883594"/>
+</kw>
+<kw name="Maximize Browser Window" owner="SeleniumLibrary">
+<doc>Maximizes current browser window.</doc>
+<status status="PASS" start="2024-07-20T16:15:32.178040" elapsed="0.109363"/>
+</kw>
+<status status="PASS" start="2024-07-20T16:15:23.290236" elapsed="8.998147"/>
+</kw>
+<kw name="Close Browser" owner="SeleniumLibrary">
+<doc>Closes the current browser.</doc>
+<status status="PASS" start="2024-07-20T16:15:32.290398" elapsed="5.444570"/>
+</kw>
+<doc>ouvrir la page d'acceil du site orange</doc>
+<tag>critical</tag>
+<status status="PASS" start="2024-07-20T16:15:23.288250" elapsed="14.447748"/>
+</test>
+<status status="PASS" start="2024-07-20T16:15:22.041780" elapsed="15.696445"/>
+</suite>
+<statistics>
+<total>
+<stat pass="1" fail="0" skip="0">All Tests</stat>
+</total>
+<tag>
+<stat pass="1" fail="0" skip="0">critical</stat>
+</tag>
+<suite>
+<stat pass="1" fail="0" skip="0" id="s1" name="PageObject">PageObject</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>

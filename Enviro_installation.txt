@@ -1,0 +1,21 @@
+Installer python 3.11
+pip –version
+
+pip install robotframework
+pip install --upgrade robotframework-seleniumlibrary
+
+Installer VScode
+
+**** extension****pluging
+Robot Framework Language Server
+Robocorp Code
+
+Ajouter le path de python
+
+1-step:(plugging)
+    1- extension setting
+    2- Robocorp Language-server : python (add path python)
+        a-demarrer --> python 11.5.. --> locator file--> copy url +\Python.exe
+2-      1- extension setting
+    2- Robot Framework Language Server : python (add path python)
+        a-demarrer --> python 11.5.. --> locator file--> copy url +\Python.exe
